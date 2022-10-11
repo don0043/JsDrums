@@ -13,10 +13,11 @@ body,html {
 .keys {
   display: flex;
   flex: 1;
-  min-height: 100vh;
+  min-height: 80vh;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+
 }
 .beats{
   display: flex;
@@ -56,3 +57,42 @@ kbd {
   letter-spacing: .1rem;
   color: #ffc600;
 }
+
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 200px;
+
+}
+.visualizer, .bot-visualizer{
+  width: 120px;
+  height: 5px;
+
+  background-color: white;
+  transition: all .07s ease;
+  margin: 0px;
+}
+.mid-visualizer{
+  width: 120px;
+  height: 5px;
+
+  background-color: white;
+  transition: all .07s ease;
+  margin: 0px;
+}
+.play, .trdPlay{
+  transform: scale(1.3);
+  width: 222px;
+  box-shadow: 0 0 1rem white;
+  background-color: white;
+}
+.sndPlay{
+  transform: scale(1.3);
+  width: 322px;
+  box-shadow: 0 0 1rem white;
+  background-color: white;
+
+}
+
